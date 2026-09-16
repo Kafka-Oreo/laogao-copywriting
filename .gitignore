@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+*.local
+
+# 临时与构建
+*.tmp
+*.log
+node_modules/
+dist/
+build/
+
+# 密钥（绝不提交）
+*.token
+.tmp/
+gh_token
+.env
+*.pem
+**/SECRET*
+**/secret*
+
+# 打包中间产物
+*.zip
+!laogao-copywriting-coze.zip
